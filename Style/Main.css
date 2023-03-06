@@ -1,0 +1,632 @@
+
+/* ..........................Hero Banner Section.......................... */
+
+.heroBanner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/banner_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heroBannerElements{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.heroBannerElements h2{
+    color: white;
+    font-size: 30px;
+}
+
+#heroBannerTitleDecoration-1{
+    color: #3BB9C5;
+}
+
+#heroBannerTitleDecoration-2{
+    color: #F69536;
+}
+
+.heroBannerElements p{
+    color: white;
+}
+
+.heroBannerElements button{
+    width: fit-content;
+    padding: 12px 18px;
+    border-radius: 20px;
+    border: none;    
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.heroBannerElements button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* ..........................Futures Section Styles.......................... */
+
+.futureSection{
+    width: 100%;
+    background-image: url(../img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.futureSectionMainBox{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 100px 0;
+} 
+
+.futuresSectionSingleBox{
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.futureSectionIcon{
+    width: 100px;
+    height:100px;
+    background-color: #F7C552;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 3px white solid;
+    margin: 2rem auto;
+}
+
+.futureSectionIcon img{
+    width: 50%;
+}
+
+div.futureSectionContents > * {
+   margin-bottom: 2rem;
+   color: white;
+}
+
+.futureSectionContents button{
+    padding: 12px 18px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: hsl(185, 59%, 52%);
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.futureSectionContents button:hover{
+    color: hsl(185, 59%, 52%);
+    background-color: white;
+}
+
+
+/* .......................... Gallery Section ..........................*/
+
+.gallerySection{
+    width: 100%;
+}
+
+.galleyLeftContainer{
+    width: 100%;
+    background-color: #33C1CF;
+    padding: 5rem 0;
+}
+
+.galleryElements{
+    width: 70%;
+    margin: auto;
+}
+
+div.galleryElements > *{
+    color: white;
+}
+
+.galleryTitle{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+div.galleryTitle > *{
+    margin-bottom: 1.5rem;
+}
+
+.galleryTitle p{
+    font-size: 13px;
+}
+
+.galleryTitle hr{
+    width: 60%;
+    margin: 1.5rem auto;
+}
+.galleyNavigation{
+    text-align: center;
+}
+
+.galleyNavigation ul li{
+    list-style-type: none;
+    margin-bottom: 1.5rem;
+}
+
+.galleyNavigation ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3ms linear;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.galleyNavigation ul li a:hover {
+    color: #F7C552;
+}
+
+.galleryRightContainer{
+    width: 100%;
+}
+
+.galleryPhotos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+
+.gallerySinglePhoto{
+    width: 50%;
+}
+
+.gallerySinglePhoto img{
+    width: 100%;
+}
+
+
+/* .......................... Feedback Section .......................... */
+
+.feedbackSection{
+    width: 100%;
+    background-color: #F7C552 ;
+}
+
+.feedbackSectionContainer{
+    width: 90%;
+    margin: auto;
+    padding-top: 7rem ;
+}
+
+.feedbackSectionElements{
+    width: 100%;
+    text-align: center;
+}
+
+.feedbackMessage{
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.feedbackMessage p{
+    color: rgba(0, 0, 0, 0.343);
+    font-size: 14px;
+}
+
+.feedbackSectionElements h4{
+    color: white;
+    padding: 2rem 0 0.5rem 0;
+}
+
+#feedbackSectionElementsSecondP{
+    color: white;
+    font-size: 12px;
+}
+
+.feedbackSectionIcons {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0 5rem 0;
+    gap: 15px;
+}
+
+.feedbackSectionSingleIcon{
+    width: 8px;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.491);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#feedbackSectionSingleIconDifferentColor{
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* .......................... Blog Section .......................... */
+
+.blogSection{
+    width: 100%;
+    background-image: url(../img/blog-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blogSectionFirstContainer{
+    background-color: rgba(0, 0, 0, 0.431);
+}
+
+.blogSectionHeading{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.blogSectionHeadingTitle{
+    color: white;
+    padding: 3rem 0 ;
+}
+
+.blogSectionHeadingTitle h3 {
+    padding: 1rem 0;
+}
+
+.blogSectionHeadingTitle hr{
+    width: 15rem;
+    margin: 0 auto;
+}
+
+.blogSectionHeadingTitle p{
+    font-size: 14px;
+    padding: 1rem 0;
+}
+
+.blogSectionHeadingButtons{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+}
+
+.blogSectionHeadingButtons button{
+    padding: 1rem 0;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.blogSectionHeadingButtons button:hover{
+    color: #F7C552;
+}
+
+.blogSectionSecondContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blogSectionEvents{
+    width: 90%;
+    padding: 2rem 0;
+}
+
+.blogSectionEventsPhoto{
+    width: 100%;
+    background-color: white;
+    
+}
+
+.blogSectionEventsPhoto img{
+    width: 100%;    
+}
+
+.blogSectionEventsInfo{
+    background-color: white;
+    padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+}
+
+.blogSectionEventsInfo span a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgba(148, 68, 222, 0.716)
+}
+
+.blogSectionEventsInfo h4 {
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.blogSectionEventsInfo p{
+    margin-top: 20px ;
+    color: rgba(0, 0, 0, 0.511);
+    font-size: 14px;
+}
+
+
+/* .......................... Contact Section .......................... */
+
+.contactSection{
+    background-color: #596065;
+    width: 100%;
+}
+
+.contactSectionContainer{
+    color: white;
+    width: 70%;
+    margin: auto;
+    padding: 4rem 0;
+}
+
+.contactSectionElements{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactSectionElements h2{
+    margin-bottom: 1.5rem;
+}
+
+.contactSectionElements hr{
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+.contactSectionElements p{
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+
+.contactSectionElements button{
+    background-color: #33C1CF;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0.7rem 1.3rem;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.contactSectionElements button:hover{
+    color: #33C1CF ;
+    background-color: white;
+}
+
+
+ /* .......................... Map Section .......................... */
+
+.mapSection{
+    width: 100%;
+    height: 100%;
+    background-color: #333638;
+}
+
+.mapSectionLocation iframe{
+    width : 100%; 
+    height : 450px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .......................... Media Query ..........................*/
+
+@media screen and (min-width: 768px ){
+
+    /* Future Section  */
+    
+    .futureSectionMainBox{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 10px;
+    }
+    .futuresSectionSingleBox{
+        width: 48%;
+    }
+    .futureSectionContents hr{
+        width: 80%;
+        margin: 0 auto 2rem auto;
+    }    
+    .futureSectionContents p{
+        font-size: 13px;
+    }
+
+    /* Gallery Section  */
+
+    .galleryPhotos{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        padding: 2rem 0;
+        justify-content: center;
+    }
+    .gallerySinglePhoto{
+        width: 45%;
+    }
+
+    /* Blog Section */
+
+    .blogSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blogSectionFirstContainer{
+        width: 90%;
+    }
+    .blogSectionSecondContainer{
+        width: 95%;
+    }
+}
+
+
+
+
+@media screen and (min-width:900px){
+    .blogSectionFirstContainer{
+        width: 80%;
+    }
+    .blogSectionSecondContainer{
+        width: 85%;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 1024px){
+
+    /* Future Section  */
+
+    .futureSectionMainBox{
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    .futuresSectionSingleBox{
+        width: 22%;
+    }
+    .futureSectionIcon{
+        margin-bottom: 2rem;
+    }
+    div.futureSectionContents > * {
+        margin-bottom: 3rem;
+    }
+    .futureSectionContents hr{
+        width: 90%;
+        margin: 2rem auto;
+    }    
+
+    /* Gallery Section  */
+
+    .gallerySection{
+        width: 100%;
+        display: flex;
+    }
+    .galleyLeftContainer{
+        width: 35%;
+    }
+    .galleryElements{
+        width: 80%;
+        padding-top: 7rem;
+        padding-left: 10%;
+    }
+    .galleryTitle{
+        text-align: start;
+    }
+    .galleryTitle hr{
+        width: 100%;
+    }
+    .galleyNavigation{
+        text-align: start;
+    }
+    .galleryRightContainer{
+        width: 60%;
+    }
+    .galleryPhotos{
+        gap: 0;
+        justify-content: start;
+        padding-left: 2rem;
+    }
+    .gallerySinglePhoto{
+        width: 40%;
+    }
+
+    /* Feedback Section */
+
+    .feedbackSectionContainer{
+        width: 40%;
+    }
+
+    /* Blog Section */
+
+    .blogSection{
+        display: flex;
+        flex-direction: row;
+    }
+    .blogSectionFirstContainer{
+        width: 35%;
+        padding-bottom: 2rem;
+    }
+    .blogSectionSecondContainer{
+        width: 65%;
+        justify-content: start;
+        padding: 2rem 0 2rem 2rem;
+    }
+    .blogSectionHeadingTitle{
+        text-align: start;
+    }
+    .blogSectionHeadingTitle hr{
+        margin:0;
+        width: 12rem;
+    }  
+
+    /* Contact Section */
+
+    .contactSectionContainer{
+        width: 50%;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px){
+
+    .blogSectionHeading{
+        width: 20rem;
+        margin: 0 0 0 auto;
+        padding-right: 3rem;
+    }
+    .blogSectionHeadingTitle hr{
+        width: 18rem;
+    }
+    .blogSectionEvents{
+        width: 45rem;
+    }
+
+    /* Contact Section */
+
+    .contactSectionContainer{
+        width: 35%;
+    }
+}
+
+

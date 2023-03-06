@@ -1,0 +1,79 @@
+.headerSection{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+.headerSectionItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.headerSectionLogo{
+    color: black;
+}
+
+.headerSectionLogo h1 span{
+    color: #F69536;
+    font-size: 38px ;
+}
+
+.navigationLists{
+    display: none;
+}
+
+.headerSectionNavigation label{
+    color: white;
+    cursor: pointer;
+}
+
+.navigationLists li{
+    list-style-type: none;
+}
+
+.navigationLists li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.headerSectionNavigation input{
+    display: none;
+}
+
+.navigationLists li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #F69536;
+    margin: auto;
+    display: block;
+}
+
+.navigationLists li a:hover::after{
+    width: 100%;
+    transition: width 0.2s linear;
+}
+
+
+
+/* ..........................Media query.......................... */
+
+@media screen and (min-width: 768px){
+    .headerSectionNavigation label{
+        display: none;
+    }
+    .headerSectionNavigation input{
+        display: none;
+    }
+    .navigationLists{
+        display: block;
+        display: flex;
+        gap: 20px;
+    }
+};
+
+
+

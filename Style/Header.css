@@ -2,13 +2,14 @@
     width: 100%;
     position: fixed;
     background-color: white;
+    top: 0;
 }
 
 .headerSectionItems{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0 2rem;
 }
 
 .headerSectionLogo{
